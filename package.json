@@ -8,7 +8,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "test": "vitest"
   },
   "dependencies": {
     "@astrojs/tailwind": "^6.0.2",
@@ -19,6 +20,12 @@
     "toml": "^3.0.0"
   },
   "devDependencies": {
-    "@types/node": "^22.15.33"
+    "@astrojs/compiler": "^2.12.2",
+    "@preact/preset-vite": "^2.10.2",
+    "@testing-library/preact": "^3.2.4",
+    "@types/node": "^22.15.33",
+    "@vitest/ui": "^3.2.4",
+    "jsdom": "^26.1.0",
+    "vitest": "^3.2.4"
   }
 }
