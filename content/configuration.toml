@@ -2,56 +2,66 @@
 # we need to prefix all configuration keys with an underscore.
 
 [_.site]
-baseUrl = "http://zaggonaut.dev"
+baseUrl = "http://cyhriside.quest"
 
 [_.globalMeta]
-title = "Zaggonaut"
+title = "This is Me. "
 description = "Retro-Inspired Theme & Built for Astro"
-longDescription = "Zaggonaut is a retro-inspired theme for Astro, built using TypeScript, TailwindCSS, and Astro."
-cardImage = "https://zaggonaut.dev/michael-dam-unsplash.webp"
+longDescription = "AI Engineer. Solutions Engineering. Economist. Social Scientist."
+cardImage = "http://cyhriside.quest/aisingapore.webp"
+keywords = ["web development", "design", "technology"]
+
+[_.resumeMeta]
+title = "Christopher's Resume"
+description = "Practical wisdom, unfiltered thoughts, and hot takes."
+longDescription = "Web development, tech trends, and the occasional programming mishap."
+cardImage = "http://cyhriside.quest/aisingapore.webp"
 keywords = ["web development", "design", "technology"]
 
 [_.blogMeta]
-title = "Zaggonaut Blog"
+title = "Christopher's Blog"
 description = "Practical wisdom, unfiltered thoughts, and hot takes."
 longDescription = "Web development, tech trends, and the occasional programming mishap."
-cardImage = "https://zaggonaut.dev/michael-dam-unsplash.webp"
+cardImage = "http://cyhriside.quest/aisingapore.webp"
 keywords = ["web development", "design", "technology"]
 
 [_.projectMeta]
-title = "Zaggonaut Projects"
+title = "Christopher's Projects"
 description = "A list of my web development projects and developer tools."
 longDescription = "All of my projects, including both frontend and full-stack applications."
-cardImage = "https://zaggonaut.dev/michael-dam-unsplash.webp"
+cardImage = "http://cyhriside.quest/aisingapore.webp"
 keywords = ["web development", "design", "technology"]
 
 [_.notFoundMeta]
 title = "Zaggonaut 404"
 description = "The page you are looking for does not exist."
 longDescription = "The page you are looking for does not exist. Maybe it never existed. Spooky."
-cardImage = "https://zaggonaut.dev/michael-dam-unsplash.webp"
+cardImage = "http://cyhriside.quest/aisingapore.webp"
 
 [_.hero]
-title = "Zaggonaut"
-subtitle = "Retro-Inspired Theme &<br />Built for Astro"
-image = "https://zaggonaut.dev/michael-dam-unsplash.webp"
+title = "Hello! I'm Christopher."
+subtitle = "AI Enthusiast, Solutions Engineering, Economist."
+image = "http://cyhriside.quest/aisingapore.webp"
 ctaText = "View Projects"
 ctaUrl = "/projects"
 
 [_.personal]
-name = "Zaggonaut"
-githubProfile = "https://github.com/RATIU5/zaggonaut"
-twitterProfile = "https://twitter.com"
-linkedinProfile = "https://linkedin.com/"
+name = "Christopher Hoo"
+githubProfile = "https://github.com/cyh002"
+# twitterProfile = "https://twitter.com"
+linkedinProfile = "https://www.linkedin.com/in/christopher-chi-yang-hoo-570698bb/"
 
 [_.texts]
 articlesName = "Articles"
 projectsName = "Projects"
+resumeName = "Resume"
 viewAll = "View All"
 noArticles = "No articles found."
 noProjects = "No projects found."
+noResume = "No resume found."
 
 [_.menu]
 home = "/"
 projects = "/projects"
 blog = "/blog"
+resume = "/resume"

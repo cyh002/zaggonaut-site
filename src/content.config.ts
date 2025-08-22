@@ -210,6 +210,11 @@ const configuration = defineCollection({
       projectsName: z.string().default("Projects"),
 
       /**
+       * The text used when displaying the projects section on the homepage.
+       */
+      resumeName: z.string().default("Resume"),
+
+      /**
        * The text used for the "View All" button in the articles and projects sections.
        */
       viewAll: z.string().default("View All"),
