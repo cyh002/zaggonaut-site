@@ -8,3 +8,5 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
 });
+
+// npm install -D @tailwindcss/vite if u face errors
